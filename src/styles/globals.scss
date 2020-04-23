@@ -1,0 +1,24 @@
+@import './vars.scss';
+
+body {
+  background-color: $background-color;
+  font-family: $font-family;
+}
+
+/* reseting defaults */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

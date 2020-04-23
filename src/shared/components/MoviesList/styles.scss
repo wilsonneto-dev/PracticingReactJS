@@ -1,0 +1,26 @@
+.movies-list > ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  li,
+  i {
+    flex: 1 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.3%;
+    padding-bottom: 35px;
+    opacity: 0.8;
+    transition: 0.5s all;
+
+    &:hover {
+      opacity: 1;
+      z-index: 2;
+      transform: scale(1.1);
+    }
+
+    img {
+      max-width: 155px;
+    }
+  }
+}

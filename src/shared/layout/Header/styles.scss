@@ -1,0 +1,39 @@
+@import '../../../styles/vars.scss';
+
+header.main-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: $box-size;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  padding-top: 25px;
+
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+
+  .header-item {
+    flex: 1;
+  }
+  .logo-wrapper {
+    flex: none;
+  }
+  nav {
+    padding-left: 35px;
+    a {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+  .cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+      padding-left: 5px;
+    }
+  }
+}

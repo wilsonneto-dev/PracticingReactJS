@@ -1,0 +1,11 @@
+@import '../../styles/vars.scss';
+
+.content-home {
+  width: 100%;
+  max-width: $box-size;
+  margin: 0 auto;
+  padding-top: 70px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  color: white;
+}
