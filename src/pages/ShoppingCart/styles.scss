@@ -1,0 +1,52 @@
+.content-cart {
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+  font-family: 'roboto';
+
+  h1 {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    li {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      box-sizing: border-box;
+      font-size: 21px;
+      font-weight: 600;
+      padding-bottom: 2px;
+      margin-bottom: 10px;
+
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+      .thumb img {
+        width: 63px;
+      }
+
+      .title {
+        flex-grow: 1;
+        padding: 0 15px;
+      }
+
+      .button {
+        padding: 0 15px;
+        cursor: pointer;
+      }
+
+      &.total {
+        justify-content: flex-end;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}

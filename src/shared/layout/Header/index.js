@@ -16,8 +16,10 @@ export default () => (
         <Link to="/">Filmes</Link>
       </nav>
       <div className="header-item cart">
-        <span>3 Itens</span>
-        <img src={icoCart} alt="Cart Icon" />
+        <Link to="/shopping-cart">
+          <span>3 Itens</span>
+          <img src={icoCart} alt="Cart Icon" />
+        </Link>
       </div>
     </header>
   </>
